@@ -1,5 +1,5 @@
 // Write your solution here!
-const cats = ["Milo", "Otis", "Garfield"]
+const cats = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendCat(name){
     return cats.push('Ralph');
@@ -10,25 +10,25 @@ function destructivelyPrependCat(name){
 }
 
 function destructivelyRemoveLastCat(){
-    return cats.pop()
+    return cats.pop();
 }
 
 function destructivelyRemoveFirstCat(){
-    return cats.shift()
+    return cats.shift();
 }
 
 function appendCat(name){
-    return [...cats, "Broom"]
+    return [...cats, "Broom"];
 }
 
 function prependCat(name){
-    return ["Arnold", ...cats]
+    return ["Arnold", ...cats];
 }
 
 function removeLastCat(){
-    return cats.slice(0,2)
+    return cats.slice(0,2);
 }
 
 function removeFirstCat(){
-    return cats.slice(1)
+    return cats.slice(1);
 }
